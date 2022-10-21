@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Camelot from "./Components/DataGrid";
+//import {DataGrid} from '@mui/x-data-grid';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App()
+{
+  return <div className = "App">
+    <div class="header">
+      <h1 class="lines-effect">Camelot Challenge 1</h1>
+      <Camelot />
     </div>
-  );
+  </div>;
 }
 
 export default App;
